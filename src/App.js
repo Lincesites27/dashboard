@@ -1,20 +1,23 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import Main from './components/Main';
-import {Link} from 'react-router-dom'
+import {useState} from  'react'
+import Sidebar from './components/sidebar/Sidebar';
 
 function App() {
-  return (
-    <div className="App">
-      <div className='SideBar'>
-        <NavBar />
-      </div>
 
-      <div className='MainContent'>
-      <Main />
-      </div>     
+  const [sidebarOpen, setSidebarOpen] = useState (false)
+  const openSidebar = ()=>{
+    setSidebarOpen(true)
+  };
+  const closeSidebar = ()=>{
+    setSidebarOpen(false)
+  }
+
+  return (
+    <div className='container'>
+     <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar}/>
     </div>
-  );
+   
+  )
 }
 
 export default App;
