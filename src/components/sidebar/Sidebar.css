@@ -33,10 +33,10 @@
 
 .sidebar__title > i {
     font-size: 18px;
-    display: none;
+   display: none;
 }
 .sidebar__menu > h2 {
-    color:#59efce ;
+    color:#6420CD ;
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -51,12 +51,12 @@
     border-radius: 3px;
 }
 .active_menu_link{
-    background: rgba(61, 161, 117, 0.3);
-    color: #3ea175;
+    background: rgba(130, 92, 220, 0.3);
+    color: #6420CD;
 }
 .active_menu_link a{ 
 
-    color: #3ea175 !important;
+    color: #fff !important;
 }
 
 .sidebar__link > a{
@@ -67,7 +67,7 @@
 
 .sidebar__link > a:focus{
     padding: 0 7px;
-    background: rgba(61, 161, 117, 0.3);
+    background: rgba(130, 92, 220, 0.3);
     border-radius: 4px;
 }
 .sidebar__link > i {

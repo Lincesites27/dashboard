@@ -9,11 +9,11 @@ const Sidebar = ({sidebarOpen, closeSidebar}) => {
        <div className='sidebar__title'>
         <div className='sidebar__img'>
             <img src={logo} alt="logo" />
-            <h1>LinceSites | React</h1>
+            <h1>MARKETING | DATA-STUDIO</h1>
         </div>
 
         <i onClick={()=> closeSidebar()}
-        className="fa fa-times"
+        className="bi bi-x-lg"
         id='sidebarIcon'
         aria-hidden="true"
         >
